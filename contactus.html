@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<title>Contact Us</title>
+	<style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                flex-direction: row;
+            }
+
+            .container > div {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+<body background="patternbg.jpg" style="background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+  <section>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <img src="logo.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+    <a class="navbar-brand" href="#" style="color: red;"><b>Nagathamman Kovil</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html" style="color: darkred;">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: darkred;">
+            Connect
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="color: red;">
+            <li><a class="dropdown-item" href="staff.html">Staff</a></li>
+            <li><a class="dropdown-item" href="committee.html">Committee Members</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html" style="color: darkred;">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html" style="color: darkred;">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="donation.html" style="color: darkred;">Donations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: darkred;">Events</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: darkred;">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="color: red;">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+<header style="position: relative; height: 30vh; background-image: url('contact.jpg'); background-size: cover; background-position: center; text-align: left; color: #fff; padding: 20px; overflow: hidden;">
+    <h1 style="font-size: 48px; margin: 0; position: absolute; bottom: 0; left: -100%; color: darkred; margin-bottom: 10px; animation: slideIn 0.5s ease-out forwards;">
+        <b>Contact Us</b>
+    </h1>
+</header>
+
+<style>
+    @keyframes slideIn {
+        to {
+            left: 20px;
+        }
+    }
+</style>
+<br>
+<br>
+<br>
+<div class="container" style="background-color: rgba(248, 248, 255, 0.6);">
+	<div style="margin-top: 30px; align-items: center;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2119.5673204153964!2d80.14282659688627!3d13.016333181460334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5260f626895ca9%3A0x32528d9dd1139e2!2sNagathamman%20Temple!5e0!3m2!1sen!2sin!4v1705956180282!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+	<div style="margin: 40px; margin-top: 30px;">
+    <h2 style="color:darkred; text-align: center;"><b>"Ask us your doubts"</b></h2>
+    <br>
+		<fieldset style="width: 100%; margin: 0 auto;">
+<form method="POST" id="target" action="https://formsubmit.co/ssuryanarayanan301@gmail.com">
+  
+        <div class="input-group" style="border: 2px solid goldenrod;">
+  <span class="input-group-text" style="background-color: darkred; color: ghostwhite;">Name:</span>
+  <input type="hidden" name="_url" value="https://clever-sprite-62a4f4.netlify.app/contactus.html">
+  <input type="text" name="firstname" aria-label="First name" class="form-control" placeholder="FirstName">
+  <input type="text" name="lastname" aria-label="Last name" class="form-control" placeholder="LastName">
+</div>
+<br>
+<div class="input-group mb-3" style="border: 2px solid goldenrod;">
+  <span class="input-group-text" id="inputGroup-sizing-default" style="background-color: darkred; color: ghostwhite;">Phone No.:</span>
+  <input type="number" name="mono" class="form-control" placeholder="987654321" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+</div>
+<br>
+<div class="input-group mb-3" style="border: 2px solid goldenrod;">
+  <span class="input-group-text" id="inputGroup-sizing-default" style="background-color: darkred; color: ghostwhite;">E-mail:</span>
+  <input type="text" name="email" class="form-control" placeholder="sample@gmail.com" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+</div>
+<br>
+<div class="input-group mb-3" style="border: 2px solid goldenrod;">
+  <span class="input-group-text" id="inputGroup-sizing-default" style="background-color: darkred; color: ghostwhite;">Queries</span>
+  <input type="text" name="queries" class="form-control" placeholder="ask your doubts!!" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+</div>
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-primary" type="submit" style="border: 2px solid darkred; background-color: goldenrod; color: darkred;"><b>Submit</b></button>
+</div>
+
+</form>
+</fieldset>
+<br>
+<p style="color: darkred; text-align: center;">For requesting Special Poojas, Go to the <a href="#"> Services</a> section to book your timing.</p>
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<footer style="background-color: darkred; color: #fff; text-align: center; padding: 20px 0;">
+    <div style="width: 80%; margin: 0 auto;">
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <ul style="list-style: none; margin: 0; padding: 0;">
+          <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">Home</a></li>
+          <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">About Us</a></li>
+          <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">Gallery</a></li>
+          <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">Donations</a></li>
+          <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">Events</a></li>
+          <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">Services</a></li>
+        </ul>
+      </div>
+      <hr style="border: 3px solid goldenrod;">
+      <p style="font-size: 16px; margin-bottom: 10px; display: block;">&copy; 602101, Boomadevi Nagar, Bhoomadevi Nagar, Gerugambakkam, Chennai, Tamil Nadu 600116</p>
+      <p style="font-size: 16px; margin-bottom: 10px; display: block;">&copy; 2023 Nagathamman Kovil Website. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+/* WeatherApp.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+#weather-container {
+  text-align: center;
+}
+
+#city-input {
+  margin: 10px;
+  padding: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+#current-weather {
+  margin-top: 20px;
+}
+
+#forecast {
+  margin-top: 20px;
+}
+
+#toggle-unit {
+  margin-top: 20px;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
